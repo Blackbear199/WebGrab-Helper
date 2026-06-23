@@ -31,9 +31,9 @@ Refer to those files for installation, configuration, and usage details.
 Binary‑only releases are provided:
 
 - Windows
-https://onedrive.live.com/download?id=%2Fpersonal%2F306f1b47acf88caf%2FDocuments%2FWebGrabHelper%2Fhelper%5Fv1%2E0%2E2%5Fwin%5Fx64%2Ezip&parent=%2Fpersonal%2F306f1b47acf88caf%2FDocuments%2FWebGrabHelper
+https://mega.nz/file/GyIm1ZBA#g6PEk-_p7gifwZl9D_N5ToUGoGg83e1Sr7lj_KyfGwc
 - Linux
-https://onedrive.live.com/download?id=%2Fpersonal%2F306f1b47acf88caf%2FDocuments%2FWebGrabHelper%2Fhelper%5Fv1%2E0%2E2%5Flinux%5Fx64%2Etar%2Egz&parent=%2Fpersonal%2F306f1b47acf88caf%2FDocuments%2FWebGrabHelper
+https://mega.nz/file/2zYHQSSI#lGbfuZNHA12dCoaZSEn1sBUPCWVHSBF2kZ5joARpfOk
 
 Extract,Configure and run the executables for your platform.
 
