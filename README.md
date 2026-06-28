@@ -21,10 +21,19 @@ It doesn’t depend on any specific application. Anything that can send JSON can
 
 - helper.ini                       — Helper configuration file
 - helper-daemon.ini                — Daemon configuration file
-- Helper-Payload-Readme.txt        — how to configure the Helper Payloads 
+- Helper-Payload-Readme.txt        — how to configure the Helper Payloads
+- Helper-Payload-Web-UI-Readme.txt — how to use Helper Web Ui 
 - Helper-Daemon-Install-Readme.txt — how to configure the Helper Daemon
+- Helper-Daemon-Files-Readme.txt   — how to use new cdp file system
 
 Refer to those files for installation, configuration, and usage details.
+
+## End POints
+Helper
+http://ip:port/helper
+
+Helper Web UI
+http://ip:port/web
 
 ## Releases
 
