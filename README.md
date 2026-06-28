@@ -31,10 +31,10 @@ Refer to those files for installation, configuration, and usage details.
 Binary‑only releases are provided:
 
 Windows
-https://mega.nz/file/e3Q2WDbI#JNcfy0sardbdXAJhnc8UPkWQ7t5JruHgPmBlRhiyMcg
+https://mega.nz/file/T3ZF0AhY#WYnWn_FXKQ4P5Ds8k_1Qnvi0-78NaldV0eBpO9WDBjg
 
 Linux
-https://mega.nz/file/eyBw0AbJ#gJ93bcv6Ki9rRvc7tzXhevtn1RLaU7h7Uo6ejG3cdOk
+https://mega.nz/file/yvQBRTCQ#cDynR6q-K0M74J4j9Urw-gWxNWpgggAs0gUawOpd_eI
 
 Extract,Configure and run the executables for your platform.
 
