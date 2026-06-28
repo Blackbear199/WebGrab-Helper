@@ -1,0 +1,586 @@
+[2026-06-28 16:42:39][HELPER][INFO] Helper mode: GUIVPN.
+[2026-06-28 16:42:39][HELPER][INFO] Helper state: Ready.
+[2026-06-28 16:42:51] ======================== [RUN-START] ========================
+[2026-06-28 16:42:51] RunID: 20260628-194251 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:42:51] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:42:51] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:42:51] -------------------------------------------------------------
+[2026-06-28 16:42:51][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:42:51][FLARE][ERROR] Flaresolverr is unavailable. Skipping session check.
+[2026-06-28 16:42:51][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:42:51][HELPER][INFO] =========== Processing Request 1/5 ===========
+[2026-06-28 16:42:51][HELPER][INFO] Method: GET play.canalplus.nl
+[2026-06-28 16:42:51][BROWSER][INFO] Daemon command: noproxy
+[2026-06-28 16:42:53][BROWSER][INFO] Daemon command: node master
+[2026-06-28 16:42:56][BROWSER][INFO] Node/Browser state: Ready.
+[2026-06-28 16:42:56][BROWSER][INFO] Proxy state: Disconnected.
+[2026-06-28 16:42:56][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:03][EXTRACT][INFO] Extracted ssoToken1 = eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhT.....wCAlmv-7PBu_J0iYE.htsvegx8ByaoEQzLgoBXUQ from body
+[2026-06-28 16:43:03][EXTRACT][INFO] Extracted sessionBody = "osVersion":"Windows 10","deviceModel":".....NpSQgOdX8KYi-AKpmqe2_TrSHXK9rQyQQszB7E4" from body
+[2026-06-28 16:43:03][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:03][HELPER][INFO] Response length=1640
+[2026-06-28 16:43:03][HELPER][INFO] ============ Finished Request 1/5 ============
+[2026-06-28 16:43:03][HELPER][INFO] =========== Processing Request 2/5 ===========
+[2026-06-28 16:43:03][HELPER][INFO] Method: POST https://tvapi-hlm2.solocoo.tv/v1/session
+[2026-06-28 16:43:03][SUBSTITUTION][INFO] Replacing {{ssoToken1}} with eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhT.....wCAlmv-7PBu_J0iYE.htsvegx8ByaoEQzLgoBXUQ in body
+[2026-06-28 16:43:03][SUBSTITUTION][INFO] Replacing {{sessionBody}} with "osVersion":"Windows 10","deviceModel":".....NpSQgOdX8KYi-AKpmqe2_TrSHXK9rQyQQszB7E4" in body
+[2026-06-28 16:43:03][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:03][EXTRACT][INFO] Extracted token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....MX5TRO1s81kPsnMv9FSUxl3VuN1IyyhJ-MXf27sU from body
+[2026-06-28 16:43:03][EXTRACT][INFO] Extracted ssoToken2 = eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhT.....CPCr9SDljIwA3xVJ4.VoYhjY4AWIoeb-neJzU8xQ from body
+[2026-06-28 16:43:03][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:03][HELPER][INFO] Response length=1562
+[2026-06-28 16:43:03][HELPER][INFO] ============ Finished Request 2/5 ============
+[2026-06-28 16:43:03][HELPER][INFO] =========== Processing Request 3/5 ===========
+[2026-06-28 16:43:03][HELPER][INFO] Method: PUT https://tvapi-hlm2.solocoo.tv/v1/settings
+[2026-06-28 16:43:03][SUBSTITUTION][INFO] Replacing {{token}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....MX5TRO1s81kPsnMv9FSUxl3VuN1IyyhJ-MXf27sU in header Authorization
+[2026-06-28 16:43:03][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:04][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:04][HELPER][INFO] Response length=251
+[2026-06-28 16:43:04][HELPER][INFO] ============ Finished Request 3/5 ============
+[2026-06-28 16:43:04][HELPER][INFO] =========== Processing Request 4/5 ===========
+[2026-06-28 16:43:04][HELPER][INFO] Method: POST https://tvapi-hlm2.solocoo.tv/v1/session
+[2026-06-28 16:43:04][SUBSTITUTION][INFO] Replacing {{sessionBody}} with "osVersion":"Windows 10","deviceModel":".....NpSQgOdX8KYi-AKpmqe2_TrSHXK9rQyQQszB7E4" in body
+[2026-06-28 16:43:04][SUBSTITUTION][INFO] Replacing {{ssoToken2}} with eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhT.....CPCr9SDljIwA3xVJ4.VoYhjY4AWIoeb-neJzU8xQ in body
+[2026-06-28 16:43:04][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:04][EXTRACT][INFO] Extracted dataToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY from body
+[2026-06-28 16:43:04][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:04][HELPER][INFO] Response length=1562
+[2026-06-28 16:43:04][HELPER][INFO] ============ Finished Request 4/5 ============
+[2026-06-28 16:43:04][HELPER][INFO] UseState enabled: Reusing state for request 5/5
+[2026-06-28 16:43:04][HELPER][INFO] =========== Processing Request 5/5 ===========
+[2026-06-28 16:43:04][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/schedule?channels=9zhabdaigZd4WCwrn1Yyl7LtviNAKEgAgG6ysNpd&from=2026-06-28T03%3A00%3A00.000Z&until=2026-06-29T03%3A00%3A00.000Z
+[2026-06-28 16:43:04][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:04][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:05][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:05][HELPER][INFO] Response length=30195
+[2026-06-28 16:43:05][HELPER][INFO] ============ Finished Request 5/5 ============
+[2026-06-28 16:43:05] -------------------------------------------------------------
+[2026-06-28 16:43:05] RunID: 20260628-194251
+[2026-06-28 16:43:05] Duration: 00:00:14 | Requests: 5
+[2026-06-28 16:43:05] -------------------------------------------------------------
+[2026-06-28 16:43:05] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:07] ======================== [RUN-START] ========================
+[2026-06-28 16:43:07] RunID: 20260628-194307 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:07] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:07] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:07] -------------------------------------------------------------
+[2026-06-28 16:43:07][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:07][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:07][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:07][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:07][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/hmZg4i82FJZd4flfVt0ecijasXfRStGc9Jxt7Moq
+[2026-06-28 16:43:07][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:07][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:07][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:07][HELPER][INFO] Response length=1406
+[2026-06-28 16:43:07][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:07] -------------------------------------------------------------
+[2026-06-28 16:43:07] RunID: 20260628-194307
+[2026-06-28 16:43:07] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:07] -------------------------------------------------------------
+[2026-06-28 16:43:07] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:10] ======================== [RUN-START] ========================
+[2026-06-28 16:43:10] RunID: 20260628-194310 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:10] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:10] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:10] -------------------------------------------------------------
+[2026-06-28 16:43:10][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:10][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:10][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:10][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:10][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/KiAOEvKAE9lEaFL6-tvIMVyhNIfBqdmtSALCezEd
+[2026-06-28 16:43:10][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:10][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:10][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:10][HELPER][INFO] Response length=1480
+[2026-06-28 16:43:10][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:10] -------------------------------------------------------------
+[2026-06-28 16:43:10] RunID: 20260628-194310
+[2026-06-28 16:43:10] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:10] -------------------------------------------------------------
+[2026-06-28 16:43:10] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:12] ======================== [RUN-START] ========================
+[2026-06-28 16:43:12] RunID: 20260628-194312 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:12] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:12] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:12] -------------------------------------------------------------
+[2026-06-28 16:43:12][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:12][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:12][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:12][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:12][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/dw4T0uATTdP87NY869l6DvkWy1JHJyomgIzNwdLh
+[2026-06-28 16:43:12][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:12][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:14][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:14][HELPER][INFO] Response length=1666
+[2026-06-28 16:43:14][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:14] -------------------------------------------------------------
+[2026-06-28 16:43:14] RunID: 20260628-194312
+[2026-06-28 16:43:14] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:14] -------------------------------------------------------------
+[2026-06-28 16:43:14] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:16] ======================== [RUN-START] ========================
+[2026-06-28 16:43:16] RunID: 20260628-194316 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:16] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:16] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:16] -------------------------------------------------------------
+[2026-06-28 16:43:16][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:16][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:16][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:16][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:16][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/xjY7Q7mkP0ADWDA16vGNvIBRxTP8BfhdHXNK-axx
+[2026-06-28 16:43:16][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:16][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:16][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:16][HELPER][INFO] Response length=1696
+[2026-06-28 16:43:16][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:16] -------------------------------------------------------------
+[2026-06-28 16:43:16] RunID: 20260628-194316
+[2026-06-28 16:43:16] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:16] -------------------------------------------------------------
+[2026-06-28 16:43:16] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:18] ======================== [RUN-START] ========================
+[2026-06-28 16:43:18] RunID: 20260628-194318 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:18] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:18] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:18] -------------------------------------------------------------
+[2026-06-28 16:43:18][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:18][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:18][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:18][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:18][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/i8zAelTVjGs-j8Chc-yXSV0ZBeFAJxR0w2RSmD04
+[2026-06-28 16:43:18][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:18][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:19][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:19][HELPER][INFO] Response length=1696
+[2026-06-28 16:43:19][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:19] -------------------------------------------------------------
+[2026-06-28 16:43:19] RunID: 20260628-194318
+[2026-06-28 16:43:19] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:19] -------------------------------------------------------------
+[2026-06-28 16:43:19] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:21] ======================== [RUN-START] ========================
+[2026-06-28 16:43:21] RunID: 20260628-194321 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:21] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:21] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:21] -------------------------------------------------------------
+[2026-06-28 16:43:21][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:21][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:21][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:21][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:21][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/rXE_oI6c5iIpybGlgzY8vrvaXUwz2BonaYKbcJJs
+[2026-06-28 16:43:21][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:21][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:21][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:21][HELPER][INFO] Response length=1533
+[2026-06-28 16:43:21][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:21] -------------------------------------------------------------
+[2026-06-28 16:43:21] RunID: 20260628-194321
+[2026-06-28 16:43:21] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:21] -------------------------------------------------------------
+[2026-06-28 16:43:21] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:23] ======================== [RUN-START] ========================
+[2026-06-28 16:43:23] RunID: 20260628-194323 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:23] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:23] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:23] -------------------------------------------------------------
+[2026-06-28 16:43:23][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:23][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:23][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:23][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:23][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/eZBXHRanMELrY6WEEoeBqw9olD_WswwkD6ENzElm
+[2026-06-28 16:43:23][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:23][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:24][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:24][HELPER][INFO] Response length=2470
+[2026-06-28 16:43:24][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:24] -------------------------------------------------------------
+[2026-06-28 16:43:24] RunID: 20260628-194323
+[2026-06-28 16:43:24] Duration: 00:00:00 | Requests: 1
+[2026-06-28 16:43:24] -------------------------------------------------------------
+[2026-06-28 16:43:24] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:26] ======================== [RUN-START] ========================
+[2026-06-28 16:43:26] RunID: 20260628-194326 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:26] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:26] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:26] -------------------------------------------------------------
+[2026-06-28 16:43:26][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:26][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:26][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:26][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:26][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/gVliAXOsPweaUnUYDTOCRnSgD34S6LgyM_LKB9Gu
+[2026-06-28 16:43:26][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:26][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:26][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:26][HELPER][INFO] Response length=1461
+[2026-06-28 16:43:26][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:26] -------------------------------------------------------------
+[2026-06-28 16:43:26] RunID: 20260628-194326
+[2026-06-28 16:43:26] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:26] -------------------------------------------------------------
+[2026-06-28 16:43:26] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:28] ======================== [RUN-START] ========================
+[2026-06-28 16:43:28] RunID: 20260628-194328 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:28] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:28] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:28] -------------------------------------------------------------
+[2026-06-28 16:43:28][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:28][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:28][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:28][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:28][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/xtMuIPTnb30wipzMS7eIkFug_ar96zbRo4Lov073
+[2026-06-28 16:43:28][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:28][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:29][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:29][HELPER][INFO] Response length=1379
+[2026-06-28 16:43:29][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:29] -------------------------------------------------------------
+[2026-06-28 16:43:29] RunID: 20260628-194328
+[2026-06-28 16:43:29] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:29] -------------------------------------------------------------
+[2026-06-28 16:43:29] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:31] ======================== [RUN-START] ========================
+[2026-06-28 16:43:31] RunID: 20260628-194331 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:31] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:31] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:31] -------------------------------------------------------------
+[2026-06-28 16:43:31][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:31][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:31][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:31][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:31][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/1fqciOpmzlJd5fpH1x6gpPXOtTC4ZTzFE3OFVhEd
+[2026-06-28 16:43:31][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:31][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:31][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:31][HELPER][INFO] Response length=1379
+[2026-06-28 16:43:31][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:31] -------------------------------------------------------------
+[2026-06-28 16:43:31] RunID: 20260628-194331
+[2026-06-28 16:43:31] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:31] -------------------------------------------------------------
+[2026-06-28 16:43:31] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:33] ======================== [RUN-START] ========================
+[2026-06-28 16:43:33] RunID: 20260628-194333 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:33] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:33] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:33] -------------------------------------------------------------
+[2026-06-28 16:43:33][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:33][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:33][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:33][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:33][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/czbBtIejePRo7BcgKL4veB62P5DRJgOM9UzIPQ-3
+[2026-06-28 16:43:33][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:33][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:34][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:34][HELPER][INFO] Response length=1415
+[2026-06-28 16:43:34][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:34] -------------------------------------------------------------
+[2026-06-28 16:43:34] RunID: 20260628-194333
+[2026-06-28 16:43:34] Duration: 00:00:00 | Requests: 1
+[2026-06-28 16:43:34] -------------------------------------------------------------
+[2026-06-28 16:43:34] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:36] ======================== [RUN-START] ========================
+[2026-06-28 16:43:36] RunID: 20260628-194336 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:36] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:36] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:36] -------------------------------------------------------------
+[2026-06-28 16:43:36][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:36][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:36][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:36][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:36][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/v3GCCnWb0ZtIC1M0ILvk-SrG9yEr5Aor5irPTIqL
+[2026-06-28 16:43:36][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:36][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:36][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:36][HELPER][INFO] Response length=1447
+[2026-06-28 16:43:36][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:36] -------------------------------------------------------------
+[2026-06-28 16:43:36] RunID: 20260628-194336
+[2026-06-28 16:43:36] Duration: 00:00:00 | Requests: 1
+[2026-06-28 16:43:36] -------------------------------------------------------------
+[2026-06-28 16:43:36] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:38] ======================== [RUN-START] ========================
+[2026-06-28 16:43:38] RunID: 20260628-194338 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:38] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:38] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:38] -------------------------------------------------------------
+[2026-06-28 16:43:38][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:38][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:38][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:38][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:38][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/rNlWW_y9T2mP4LBiPfxNmVjPpNGrxANopCFCjWm9
+[2026-06-28 16:43:38][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:38][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:39][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:39][HELPER][INFO] Response length=2567
+[2026-06-28 16:43:39][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:39] -------------------------------------------------------------
+[2026-06-28 16:43:39] RunID: 20260628-194338
+[2026-06-28 16:43:39] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:39] -------------------------------------------------------------
+[2026-06-28 16:43:39] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:41] ======================== [RUN-START] ========================
+[2026-06-28 16:43:41] RunID: 20260628-194341 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:41] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:41] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:41] -------------------------------------------------------------
+[2026-06-28 16:43:41][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:41][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:41][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:41][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:41][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/4KcWCjICAhqZpXF7FwJHobweSvBgFbEQCPuIZe-x
+[2026-06-28 16:43:41][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:41][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:41][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:41][HELPER][INFO] Response length=1728
+[2026-06-28 16:43:41][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:41] -------------------------------------------------------------
+[2026-06-28 16:43:41] RunID: 20260628-194341
+[2026-06-28 16:43:41] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:41] -------------------------------------------------------------
+[2026-06-28 16:43:41] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:43] ======================== [RUN-START] ========================
+[2026-06-28 16:43:43] RunID: 20260628-194343 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:43] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:43] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:43] -------------------------------------------------------------
+[2026-06-28 16:43:43][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:43][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:43][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:43][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:43][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/I7PTbQAte-fD-y1r42oF-qET6FSCRDPlWvoXRHLD
+[2026-06-28 16:43:43][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:43][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:44][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:44][HELPER][INFO] Response length=1479
+[2026-06-28 16:43:44][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:44] -------------------------------------------------------------
+[2026-06-28 16:43:44] RunID: 20260628-194343
+[2026-06-28 16:43:44] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:44] -------------------------------------------------------------
+[2026-06-28 16:43:44] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:46] ======================== [RUN-START] ========================
+[2026-06-28 16:43:46] RunID: 20260628-194346 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:46] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:46] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:46] -------------------------------------------------------------
+[2026-06-28 16:43:46][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:46][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:46][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:46][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:46][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/gdoDiF2uuT8pa37YPW21qRy4jqfc6elSBCplOpH5
+[2026-06-28 16:43:46][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:46][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:47][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:47][HELPER][INFO] Response length=1479
+[2026-06-28 16:43:47][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:47] -------------------------------------------------------------
+[2026-06-28 16:43:47] RunID: 20260628-194346
+[2026-06-28 16:43:47] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:47] -------------------------------------------------------------
+[2026-06-28 16:43:47] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:49] ======================== [RUN-START] ========================
+[2026-06-28 16:43:49] RunID: 20260628-194349 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:49] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:49] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:49] -------------------------------------------------------------
+[2026-06-28 16:43:49][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:49][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:49][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:49][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:49][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/jTj36nH_RIwTePhma1mt4IwxhlZ9bED9W2itLrM8
+[2026-06-28 16:43:49][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:49][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:49][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:49][HELPER][INFO] Response length=1433
+[2026-06-28 16:43:49][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:49] -------------------------------------------------------------
+[2026-06-28 16:43:49] RunID: 20260628-194349
+[2026-06-28 16:43:49] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:49] -------------------------------------------------------------
+[2026-06-28 16:43:49] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:51] ======================== [RUN-START] ========================
+[2026-06-28 16:43:51] RunID: 20260628-194351 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:51] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:51] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:51] -------------------------------------------------------------
+[2026-06-28 16:43:51][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:51][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:51][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:51][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:51][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/fNWJnJRU5obV0REN9k_FvBOQ8Z5W9OlIfmXwOlxg
+[2026-06-28 16:43:51][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:51][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:52][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:52][HELPER][INFO] Response length=1479
+[2026-06-28 16:43:52][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:52] -------------------------------------------------------------
+[2026-06-28 16:43:52] RunID: 20260628-194351
+[2026-06-28 16:43:52] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:52] -------------------------------------------------------------
+[2026-06-28 16:43:52] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:54] ======================== [RUN-START] ========================
+[2026-06-28 16:43:54] RunID: 20260628-194354 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:54] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:54] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:54] -------------------------------------------------------------
+[2026-06-28 16:43:54][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:54][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:54][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:54][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:54][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/2rNOhcKBrLaccHYWqaliPJGZL1PwY8fh0NLV2jHR
+[2026-06-28 16:43:54][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:54][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:54][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:54][HELPER][INFO] Response length=1479
+[2026-06-28 16:43:54][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:54] -------------------------------------------------------------
+[2026-06-28 16:43:54] RunID: 20260628-194354
+[2026-06-28 16:43:54] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:54] -------------------------------------------------------------
+[2026-06-28 16:43:54] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:56] ======================== [RUN-START] ========================
+[2026-06-28 16:43:56] RunID: 20260628-194356 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:56] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:56] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:56] -------------------------------------------------------------
+[2026-06-28 16:43:56][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:56][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:56][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:56][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:56][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/kiphypMZAB1L8nTS9sOO4cN-qgrtV0XkniyjpkAO
+[2026-06-28 16:43:56][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:56][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:57][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:57][HELPER][INFO] Response length=1728
+[2026-06-28 16:43:57][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:57] -------------------------------------------------------------
+[2026-06-28 16:43:57] RunID: 20260628-194356
+[2026-06-28 16:43:57] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:57] -------------------------------------------------------------
+[2026-06-28 16:43:57] ========================= [RUN-END] =========================
+
+[2026-06-28 16:43:59] ======================== [RUN-START] ========================
+[2026-06-28 16:43:59] RunID: 20260628-194359 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:43:59] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:43:59] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:43:59] -------------------------------------------------------------
+[2026-06-28 16:43:59][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:43:59][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:43:59][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:43:59][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:43:59][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/VKbSDxwTY3oev0R9oBr-vl8CAZ4L1SWkAmIRSnTv
+[2026-06-28 16:43:59][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:43:59][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:43:59][HELPER][INFO] => 200 OK
+[2026-06-28 16:43:59][HELPER][INFO] Response length=2161
+[2026-06-28 16:43:59][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:43:59] -------------------------------------------------------------
+[2026-06-28 16:43:59] RunID: 20260628-194359
+[2026-06-28 16:43:59] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:43:59] -------------------------------------------------------------
+[2026-06-28 16:43:59] ========================= [RUN-END] =========================
+
+[2026-06-28 16:44:01] ======================== [RUN-START] ========================
+[2026-06-28 16:44:01] RunID: 20260628-194401 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:44:01] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:44:01] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:44:01] -------------------------------------------------------------
+[2026-06-28 16:44:01][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:44:01][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:44:01][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:44:01][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:44:01][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/xevAAxlixhFVNvsVBZJnmCUeRXcwaCCwfyg0RGFn
+[2026-06-28 16:44:01][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:44:01][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:44:02][HELPER][INFO] => 200 OK
+[2026-06-28 16:44:02][HELPER][INFO] Response length=2062
+[2026-06-28 16:44:02][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:44:02] -------------------------------------------------------------
+[2026-06-28 16:44:02] RunID: 20260628-194401
+[2026-06-28 16:44:02] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:44:02] -------------------------------------------------------------
+[2026-06-28 16:44:02] ========================= [RUN-END] =========================
+
+[2026-06-28 16:44:04] ======================== [RUN-START] ========================
+[2026-06-28 16:44:04] RunID: 20260628-194404 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:44:04] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:44:04] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:44:04] -------------------------------------------------------------
+[2026-06-28 16:44:04][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:44:04][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:44:04][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:44:04][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:44:04][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/4bs9RIpR4--BFSt-LiuNGopo-d0VU1Vf-po1_7t-
+[2026-06-28 16:44:04][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:44:04][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:44:05][HELPER][INFO] => 200 OK
+[2026-06-28 16:44:05][HELPER][INFO] Response length=1447
+[2026-06-28 16:44:05][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:44:05] -------------------------------------------------------------
+[2026-06-28 16:44:05] RunID: 20260628-194404
+[2026-06-28 16:44:05] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:44:05] -------------------------------------------------------------
+[2026-06-28 16:44:05] ========================= [RUN-END] =========================
+
+[2026-06-28 16:44:07] ======================== [RUN-START] ========================
+[2026-06-28 16:44:07] RunID: 20260628-194407 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:44:07] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:44:07] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:44:07] -------------------------------------------------------------
+[2026-06-28 16:44:07][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:44:07][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:44:07][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:44:07][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:44:07][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/Cs_m1JKcRBxQxRsBlolxpIsApYpkZYBl1dbctTzm
+[2026-06-28 16:44:07][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:44:07][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:44:07][HELPER][INFO] => 200 OK
+[2026-06-28 16:44:07][HELPER][INFO] Response length=1415
+[2026-06-28 16:44:07][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:44:07] -------------------------------------------------------------
+[2026-06-28 16:44:07] RunID: 20260628-194407
+[2026-06-28 16:44:07] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:44:07] -------------------------------------------------------------
+[2026-06-28 16:44:07] ========================= [RUN-END] =========================
+
+[2026-06-28 16:44:09] ======================== [RUN-START] ========================
+[2026-06-28 16:44:09] RunID: 20260628-194409 | Site: canalplus.nl | User: fuckhead
+[2026-06-28 16:44:09] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:44:09] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:44:09] -------------------------------------------------------------
+[2026-06-28 16:44:09][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:44:09][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:44:09][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:44:09][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:44:09][HELPER][INFO] Method: GET https://tvapi-hlm2.solocoo.tv/v1/assets/pljuZ7WO5ABz-CjQvFXO3bTJeMUazkOQlwvlwR86
+[2026-06-28 16:44:09][SUBSTITUTION][INFO] Replacing {{dataToken}} with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.....PSQty8rP_N4zQQNsxpwQbBa_O3zEdYZcUpYghjAY in header Authorization
+[2026-06-28 16:44:09][BROWSER][INFO] Payload sent to node module: solocoo
+[2026-06-28 16:44:10][HELPER][INFO] => 200 OK
+[2026-06-28 16:44:10][HELPER][INFO] Response length=1450
+[2026-06-28 16:44:10][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:44:10] -------------------------------------------------------------
+[2026-06-28 16:44:10] RunID: 20260628-194409
+[2026-06-28 16:44:10] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:44:10] -------------------------------------------------------------
+[2026-06-28 16:44:10] ========================= [RUN-END] =========================

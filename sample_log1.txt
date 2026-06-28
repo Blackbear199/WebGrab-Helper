@@ -1,0 +1,547 @@
+[2026-06-28 16:22:05][HELPER][INFO] Helper mode: GUIVPN.
+[2026-06-28 16:22:05][HELPER][INFO] Helper state: Ready.
+[2026-06-28 16:32:05][HTTP][INFO] Clearing httpClient cookies and state.
+[2026-06-28 16:32:05][HELPER][INFO] Daemon idle shutdown.
+[2026-06-28 16:38:12] ======================== [RUN-START] ========================
+[2026-06-28 16:38:12] RunID: 20260628-193812 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:12] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:38:12] Proxy: Off | Solver: Off | HttpClient: Off | UseState: On
+[2026-06-28 16:38:12] -------------------------------------------------------------
+[2026-06-28 16:38:12][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:12][FLARE][ERROR] Flaresolverr is unavailable. Skipping session check.
+[2026-06-28 16:38:12][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:38:12][HELPER][INFO] UseState enabled: Reusing state for request 1/1
+[2026-06-28 16:38:12][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:38:12][HELPER][INFO] Method: GET https://tv.yandex.ru/
+[2026-06-28 16:38:12][BROWSER][INFO] Daemon command: noproxy
+[2026-06-28 16:38:14][BROWSER][INFO] Daemon command: node master
+[2026-06-28 16:38:28][BROWSER][INFO] Node/Browser state: Ready.
+[2026-06-28 16:38:28][BROWSER][INFO] Proxy state: Disconnected.
+[2026-06-28 16:38:28][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:38:32][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:32][HELPER][INFO] Response length=78931
+[2026-06-28 16:38:32][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:38:32] -------------------------------------------------------------
+[2026-06-28 16:38:32] RunID: 20260628-193812
+[2026-06-28 16:38:32] Duration: 00:00:21 | Requests: 1
+[2026-06-28 16:38:32] -------------------------------------------------------------
+[2026-06-28 16:38:32] ========================= [RUN-END] =========================
+
+[2026-06-28 16:38:36] ======================== [RUN-START] ========================
+[2026-06-28 16:38:36] RunID: 20260628-193836 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:36] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: Off
+[2026-06-28 16:38:36] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:38:36] -------------------------------------------------------------
+[2026-06-28 16:38:36][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:36][HTTP][INFO] Using HttpClient.
+[2026-06-28 16:38:36][HELPER][INFO] =========== Processing Request 1/2 ===========
+[2026-06-28 16:38:36][HELPER][INFO] Method: GET https://tv.yandex.ru/api/sk
+[2026-06-28 16:38:37][EXTRACT][INFO] Extracted sk-key = 97f91f24bdc429ece3674768f61fe0f9789e6117:1782675517245 from body
+[2026-06-28 16:38:37][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:37][HELPER][INFO] Response length=94
+[2026-06-28 16:38:37][HELPER][INFO] ============ Finished Request 1/2 ============
+[2026-06-28 16:38:37][HELPER][INFO] =========== Processing Request 2/2 ===========
+[2026-06-28 16:38:37][HELPER][INFO] Method: GET https://tv.yandex.ru/api/213/channel/pervyy-16/schedule?selectedDay=2026-06-28
+[2026-06-28 16:38:37][SUBSTITUTION][INFO] Replacing {{sk-key}} with 97f91f24bdc429ece3674768f61fe0f9789e6117:1782675517245 in header X-TV-SK
+[2026-06-28 16:38:38][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:38][HELPER][INFO] Response length=67453
+[2026-06-28 16:38:38][HELPER][INFO] ============ Finished Request 2/2 ============
+[2026-06-28 16:38:38] -------------------------------------------------------------
+[2026-06-28 16:38:38] RunID: 20260628-193836
+[2026-06-28 16:38:38] Duration: 00:00:02 | Requests: 2
+[2026-06-28 16:38:38] -------------------------------------------------------------
+[2026-06-28 16:38:38] ========================= [RUN-END] =========================
+
+[2026-06-28 16:38:41] ======================== [RUN-START] ========================
+[2026-06-28 16:38:41] RunID: 20260628-193841 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:41] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:38:41] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:38:41] -------------------------------------------------------------
+[2026-06-28 16:38:41][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:41][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:38:41][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:38:41][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/novosti-8649090?eventId=258732417
+[2026-06-28 16:38:41][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:38:43][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:43][HELPER][INFO] Response length=63521
+[2026-06-28 16:38:43][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:38:43] -------------------------------------------------------------
+[2026-06-28 16:38:43] RunID: 20260628-193841
+[2026-06-28 16:38:43] Duration: 00:00:02 | Requests: 1
+[2026-06-28 16:38:43] -------------------------------------------------------------
+[2026-06-28 16:38:43] ========================= [RUN-END] =========================
+
+[2026-06-28 16:38:46] ======================== [RUN-START] ========================
+[2026-06-28 16:38:46] RunID: 20260628-193846 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:46] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:38:46] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:38:46] -------------------------------------------------------------
+[2026-06-28 16:38:46][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:46][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:38:46][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:38:46][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/igray-garmon-lyubimaya-8661488?eventId=258732418
+[2026-06-28 16:38:46][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:38:48][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:48][HELPER][INFO] Response length=95621
+[2026-06-28 16:38:48][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:38:48] -------------------------------------------------------------
+[2026-06-28 16:38:48] RunID: 20260628-193846
+[2026-06-28 16:38:48] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:38:48] -------------------------------------------------------------
+[2026-06-28 16:38:48] ========================= [RUN-END] =========================
+
+[2026-06-28 16:38:51] ======================== [RUN-START] ========================
+[2026-06-28 16:38:51] RunID: 20260628-193851 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:51] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:38:51] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:38:51] -------------------------------------------------------------
+[2026-06-28 16:38:51][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:51][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:38:51][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:38:51][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/chasovoy-8661490?eventId=258732419
+[2026-06-28 16:38:51][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:38:51][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:51][HELPER][INFO] Response length=83255
+[2026-06-28 16:38:51][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:38:51] -------------------------------------------------------------
+[2026-06-28 16:38:51] RunID: 20260628-193851
+[2026-06-28 16:38:51] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:38:51] -------------------------------------------------------------
+[2026-06-28 16:38:51] ========================= [RUN-END] =========================
+
+[2026-06-28 16:38:54] ======================== [RUN-START] ========================
+[2026-06-28 16:38:54] RunID: 20260628-193854 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:54] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:38:54] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:38:54] -------------------------------------------------------------
+[2026-06-28 16:38:54][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:54][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:38:54][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:38:54][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/zdorove-8661369?eventId=258732420
+[2026-06-28 16:38:54][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:38:55][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:55][HELPER][INFO] Response length=68813
+[2026-06-28 16:38:55][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:38:55] -------------------------------------------------------------
+[2026-06-28 16:38:55] RunID: 20260628-193854
+[2026-06-28 16:38:55] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:38:55] -------------------------------------------------------------
+[2026-06-28 16:38:55] ========================= [RUN-END] =========================
+
+[2026-06-28 16:38:58] ======================== [RUN-START] ========================
+[2026-06-28 16:38:58] RunID: 20260628-193858 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:38:58] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:38:58] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:38:58] -------------------------------------------------------------
+[2026-06-28 16:38:58][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:38:58][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:38:58][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:38:58][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/zolotaya-kollekciya-soyuzmultfilma-8160154?eventId=258732421
+[2026-06-28 16:38:58][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:38:59][HELPER][INFO] => 200 OK
+[2026-06-28 16:38:59][HELPER][INFO] Response length=76450
+[2026-06-28 16:38:59][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:38:59] -------------------------------------------------------------
+[2026-06-28 16:38:59] RunID: 20260628-193858
+[2026-06-28 16:38:59] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:38:59] -------------------------------------------------------------
+[2026-06-28 16:38:59] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:02] ======================== [RUN-START] ========================
+[2026-06-28 16:39:02] RunID: 20260628-193902 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:02] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:02] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:02] -------------------------------------------------------------
+[2026-06-28 16:39:02][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:02][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:02][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:02][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/neputevye-zametki-s-dm-krylovym-8674273?eventId=258732422
+[2026-06-28 16:39:02][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:03][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:03][HELPER][INFO] Response length=68380
+[2026-06-28 16:39:03][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:03] -------------------------------------------------------------
+[2026-06-28 16:39:03] RunID: 20260628-193902
+[2026-06-28 16:39:03] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:03] -------------------------------------------------------------
+[2026-06-28 16:39:03] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:06] ======================== [RUN-START] ========================
+[2026-06-28 16:39:06] RunID: 20260628-193906 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:06] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:06] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:06] -------------------------------------------------------------
+[2026-06-28 16:39:06][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:06][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:06][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:06][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/mechtallion-nacionalnaya-lotereya-8661448?eventId=258732423
+[2026-06-28 16:39:06][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:07][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:07][HELPER][INFO] Response length=66656
+[2026-06-28 16:39:07][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:07] -------------------------------------------------------------
+[2026-06-28 16:39:07] RunID: 20260628-193906
+[2026-06-28 16:39:07] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:07] -------------------------------------------------------------
+[2026-06-28 16:39:07] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:10] ======================== [RUN-START] ========================
+[2026-06-28 16:39:10] RunID: 20260628-193910 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:10] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:10] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:10] -------------------------------------------------------------
+[2026-06-28 16:39:10][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:10][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:10][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:10][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/novosti-s-subtitrami-8649094?eventId=258732424
+[2026-06-28 16:39:10][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:11][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:11][HELPER][INFO] Response length=64149
+[2026-06-28 16:39:11][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:11] -------------------------------------------------------------
+[2026-06-28 16:39:11] RunID: 20260628-193910
+[2026-06-28 16:39:11] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:11] -------------------------------------------------------------
+[2026-06-28 16:39:11] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:14] ======================== [RUN-START] ========================
+[2026-06-28 16:39:14] RunID: 20260628-193914 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:14] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:14] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:14] -------------------------------------------------------------
+[2026-06-28 16:39:14][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:14][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:14][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:14][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/jizn-svoih-8680339?eventId=259030393
+[2026-06-28 16:39:14][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:15][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:15][HELPER][INFO] Response length=128740
+[2026-06-28 16:39:15][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:15] -------------------------------------------------------------
+[2026-06-28 16:39:15] RunID: 20260628-193914
+[2026-06-28 16:39:15] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:15] -------------------------------------------------------------
+[2026-06-28 16:39:15] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:18] ======================== [RUN-START] ========================
+[2026-06-28 16:39:18] RunID: 20260628-193918 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:18] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:18] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:18] -------------------------------------------------------------
+[2026-06-28 16:39:18][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:18][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:18][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:18][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/povara-na-kolesah-8661447?eventId=258732426
+[2026-06-28 16:39:18][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:19][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:19][HELPER][INFO] Response length=128548
+[2026-06-28 16:39:19][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:19] -------------------------------------------------------------
+[2026-06-28 16:39:19] RunID: 20260628-193918
+[2026-06-28 16:39:19] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:19] -------------------------------------------------------------
+[2026-06-28 16:39:19] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:22] ======================== [RUN-START] ========================
+[2026-06-28 16:39:22] RunID: 20260628-193922 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:22] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:22] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:22] -------------------------------------------------------------
+[2026-06-28 16:39:22][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:22][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:22][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:22][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/novosti-s-subtitrami-8649094?eventId=258732427
+[2026-06-28 16:39:22][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:23][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:23][HELPER][INFO] Response length=64149
+[2026-06-28 16:39:23][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:23] -------------------------------------------------------------
+[2026-06-28 16:39:23] RunID: 20260628-193922
+[2026-06-28 16:39:23] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:23] -------------------------------------------------------------
+[2026-06-28 16:39:23] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:26] ======================== [RUN-START] ========================
+[2026-06-28 16:39:26] RunID: 20260628-193926 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:26] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:26] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:26] -------------------------------------------------------------
+[2026-06-28 16:39:26][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:26][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:26][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:26][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/pobeda-8121660?eventId=258732428
+[2026-06-28 16:39:26][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:27][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:27][HELPER][INFO] Response length=127727
+[2026-06-28 16:39:27][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:27] -------------------------------------------------------------
+[2026-06-28 16:39:27] RunID: 20260628-193926
+[2026-06-28 16:39:27] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:27] -------------------------------------------------------------
+[2026-06-28 16:39:27] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:30] ======================== [RUN-START] ========================
+[2026-06-28 16:39:30] RunID: 20260628-193930 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:30] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:30] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:30] -------------------------------------------------------------
+[2026-06-28 16:39:30][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:30][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:30][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:30][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/yanychar-9080991?eventId=258732429
+[2026-06-28 16:39:30][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:31][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:31][HELPER][INFO] Response length=167227
+[2026-06-28 16:39:31][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:31] -------------------------------------------------------------
+[2026-06-28 16:39:31] RunID: 20260628-193930
+[2026-06-28 16:39:31] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:31] -------------------------------------------------------------
+[2026-06-28 16:39:31] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:34] ======================== [RUN-START] ========================
+[2026-06-28 16:39:34] RunID: 20260628-193934 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:34] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:34] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:34] -------------------------------------------------------------
+[2026-06-28 16:39:34][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:34][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:34][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:34][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/yuriy-shatunov-shipy-belyh-roz-9081187?eventId=258732430
+[2026-06-28 16:39:34][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:36][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:36][HELPER][INFO] Response length=91655
+[2026-06-28 16:39:36][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:36] -------------------------------------------------------------
+[2026-06-28 16:39:36] RunID: 20260628-193934
+[2026-06-28 16:39:36] Duration: 00:00:02 | Requests: 1
+[2026-06-28 16:39:36] -------------------------------------------------------------
+[2026-06-28 16:39:36] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:39] ======================== [RUN-START] ========================
+[2026-06-28 16:39:39] RunID: 20260628-193939 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:39] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:39] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:39] -------------------------------------------------------------
+[2026-06-28 16:39:39][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:39][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:39][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:39][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/vechernie-novosti-s-subtitrami-8649097?eventId=258732431
+[2026-06-28 16:39:39][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:40][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:40][HELPER][INFO] Response length=63481
+[2026-06-28 16:39:40][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:40] -------------------------------------------------------------
+[2026-06-28 16:39:40] RunID: 20260628-193939
+[2026-06-28 16:39:40] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:40] -------------------------------------------------------------
+[2026-06-28 16:39:40] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:43] ======================== [RUN-START] ========================
+[2026-06-28 16:39:43] RunID: 20260628-193943 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:43] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:43] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:43] -------------------------------------------------------------
+[2026-06-28 16:39:43][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:43][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:43][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:43][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/do-re-8840408?eventId=259052088
+[2026-06-28 16:39:43][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:44][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:44][HELPER][INFO] Response length=90747
+[2026-06-28 16:39:44][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:44] -------------------------------------------------------------
+[2026-06-28 16:39:44] RunID: 20260628-193943
+[2026-06-28 16:39:44] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:44] -------------------------------------------------------------
+[2026-06-28 16:39:44] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:47] ======================== [RUN-START] ========================
+[2026-06-28 16:39:47] RunID: 20260628-193947 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:47] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:47] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:47] -------------------------------------------------------------
+[2026-06-28 16:39:47][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:47][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:47][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:47][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/vremya-8649095?eventId=258732433
+[2026-06-28 16:39:47][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:48][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:48][HELPER][INFO] Response length=65145
+[2026-06-28 16:39:48][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:48] -------------------------------------------------------------
+[2026-06-28 16:39:48] RunID: 20260628-193947
+[2026-06-28 16:39:48] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:48] -------------------------------------------------------------
+[2026-06-28 16:39:48] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:51] ======================== [RUN-START] ========================
+[2026-06-28 16:39:51] RunID: 20260628-193951 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:51] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:51] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:51] -------------------------------------------------------------
+[2026-06-28 16:39:51][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:51][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:51][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:51][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/bolshaya-igra-8661355?eventId=258732434
+[2026-06-28 16:39:51][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:51][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:51][HELPER][INFO] Response length=73357
+[2026-06-28 16:39:51][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:51] -------------------------------------------------------------
+[2026-06-28 16:39:51] RunID: 20260628-193951
+[2026-06-28 16:39:51] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:51] -------------------------------------------------------------
+[2026-06-28 16:39:51] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:54] ======================== [RUN-START] ========================
+[2026-06-28 16:39:54] RunID: 20260628-193954 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:54] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:54] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:54] -------------------------------------------------------------
+[2026-06-28 16:39:54][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:54][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:54][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:54][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732435
+[2026-06-28 16:39:54][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:55][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:55][HELPER][INFO] Response length=171191
+[2026-06-28 16:39:55][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:55] -------------------------------------------------------------
+[2026-06-28 16:39:55] RunID: 20260628-193954
+[2026-06-28 16:39:55] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:55] -------------------------------------------------------------
+[2026-06-28 16:39:55] ========================= [RUN-END] =========================
+
+[2026-06-28 16:39:58] ======================== [RUN-START] ========================
+[2026-06-28 16:39:58] RunID: 20260628-193958 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:39:58] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:39:58] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:39:58] -------------------------------------------------------------
+[2026-06-28 16:39:58][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:39:58][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:39:58][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:39:58][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732436
+[2026-06-28 16:39:58][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:39:59][HELPER][INFO] => 200 OK
+[2026-06-28 16:39:59][HELPER][INFO] Response length=171990
+[2026-06-28 16:39:59][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:39:59] -------------------------------------------------------------
+[2026-06-28 16:39:59] RunID: 20260628-193958
+[2026-06-28 16:39:59] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:39:59] -------------------------------------------------------------
+[2026-06-28 16:39:59] ========================= [RUN-END] =========================
+
+[2026-06-28 16:40:02] ======================== [RUN-START] ========================
+[2026-06-28 16:40:02] RunID: 20260628-194002 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:40:02] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:40:02] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:40:02] -------------------------------------------------------------
+[2026-06-28 16:40:02][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:40:02][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:40:02][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:40:02][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732437
+[2026-06-28 16:40:02][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:40:03][HELPER][INFO] => 200 OK
+[2026-06-28 16:40:03][HELPER][INFO] Response length=171613
+[2026-06-28 16:40:03][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:40:03] -------------------------------------------------------------
+[2026-06-28 16:40:03] RunID: 20260628-194002
+[2026-06-28 16:40:03] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:40:03] -------------------------------------------------------------
+[2026-06-28 16:40:03] ========================= [RUN-END] =========================
+
+[2026-06-28 16:40:06] ======================== [RUN-START] ========================
+[2026-06-28 16:40:06] RunID: 20260628-194006 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:40:06] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:40:06] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:40:06] -------------------------------------------------------------
+[2026-06-28 16:40:06][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:40:06][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:40:06][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:40:06][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732438
+[2026-06-28 16:40:06][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:40:07][HELPER][INFO] => 200 OK
+[2026-06-28 16:40:07][HELPER][INFO] Response length=173371
+[2026-06-28 16:40:07][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:40:07] -------------------------------------------------------------
+[2026-06-28 16:40:07] RunID: 20260628-194006
+[2026-06-28 16:40:07] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:40:07] -------------------------------------------------------------
+[2026-06-28 16:40:07] ========================= [RUN-END] =========================
+
+[2026-06-28 16:40:10] ======================== [RUN-START] ========================
+[2026-06-28 16:40:10] RunID: 20260628-194010 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:40:10] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:40:10] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:40:10] -------------------------------------------------------------
+[2026-06-28 16:40:10][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:40:10][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:40:10][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:40:10][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732439
+[2026-06-28 16:40:10][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:40:11][HELPER][INFO] => 200 OK
+[2026-06-28 16:40:11][HELPER][INFO] Response length=173263
+[2026-06-28 16:40:11][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:40:11] -------------------------------------------------------------
+[2026-06-28 16:40:11] RunID: 20260628-194010
+[2026-06-28 16:40:11] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:40:11] -------------------------------------------------------------
+[2026-06-28 16:40:11] ========================= [RUN-END] =========================
+
+[2026-06-28 16:40:14] ======================== [RUN-START] ========================
+[2026-06-28 16:40:14] RunID: 20260628-194014 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:40:14] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:40:14] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:40:14] -------------------------------------------------------------
+[2026-06-28 16:40:14][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:40:14][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:40:14][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:40:14][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732440
+[2026-06-28 16:40:14][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:40:15][HELPER][INFO] => 200 OK
+[2026-06-28 16:40:15][HELPER][INFO] Response length=173756
+[2026-06-28 16:40:15][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:40:15] -------------------------------------------------------------
+[2026-06-28 16:40:15] RunID: 20260628-194014
+[2026-06-28 16:40:15] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:40:15] -------------------------------------------------------------
+[2026-06-28 16:40:15] ========================= [RUN-END] =========================
+
+[2026-06-28 16:40:18] ======================== [RUN-START] ========================
+[2026-06-28 16:40:18] RunID: 20260628-194018 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:40:18] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:40:18] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:40:18] -------------------------------------------------------------
+[2026-06-28 16:40:18][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:40:18][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:40:18][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:40:18][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/podkastlab-8661399?eventId=258732441
+[2026-06-28 16:40:18][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:40:19][HELPER][INFO] => 200 OK
+[2026-06-28 16:40:19][HELPER][INFO] Response length=174965
+[2026-06-28 16:40:19][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:40:19] -------------------------------------------------------------
+[2026-06-28 16:40:19] RunID: 20260628-194018
+[2026-06-28 16:40:19] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:40:19] -------------------------------------------------------------
+[2026-06-28 16:40:19] ========================= [RUN-END] =========================
+
+[2026-06-28 16:40:22] ======================== [RUN-START] ========================
+[2026-06-28 16:40:22] RunID: 20260628-194022 | Site: tv.yandex.ru | User: fuckhead
+[2026-06-28 16:40:22] VpnMode: GUIVPN | VPN: Off | vpnRegion: n/a | Browser: On
+[2026-06-28 16:40:22] Proxy: Off | Solver: Off | HttpClient: On | UseState: Off
+[2026-06-28 16:40:22] -------------------------------------------------------------
+[2026-06-28 16:40:22][HELPER][INFO] WebGrabHelper - Version 1.0.3.0 - Blackbear199
+[2026-06-28 16:40:22][BROWSER][INFO] Node Configuration: NodeMaster => master
+[2026-06-28 16:40:22][HELPER][INFO] =========== Processing Request 1/1 ===========
+[2026-06-28 16:40:22][HELPER][INFO] Method: GET https://tv.yandex.ru/213/program/pereryv-v-veshchanii-6420173?eventId=258732442
+[2026-06-28 16:40:22][BROWSER][INFO] Payload sent to node module: yandex
+[2026-06-28 16:40:23][HELPER][INFO] => 200 OK
+[2026-06-28 16:40:23][HELPER][INFO] Response length=53697
+[2026-06-28 16:40:23][HELPER][INFO] ============ Finished Request 1/1 ============
+[2026-06-28 16:40:23] -------------------------------------------------------------
+[2026-06-28 16:40:23] RunID: 20260628-194022
+[2026-06-28 16:40:23] Duration: 00:00:01 | Requests: 1
+[2026-06-28 16:40:23] -------------------------------------------------------------
+[2026-06-28 16:40:23] ========================= [RUN-END] =========================
