@@ -32,6 +32,7 @@ Binary‑only releases are provided:
 
 Windows
 https://mega.nz/file/e3Q2WDbI#JNcfy0sardbdXAJhnc8UPkWQ7t5JruHgPmBlRhiyMcg
+
 Linux
 https://mega.nz/file/eyBw0AbJ#gJ93bcv6Ki9rRvc7tzXhevtn1RLaU7h7Uo6ejG3cdOk
 
