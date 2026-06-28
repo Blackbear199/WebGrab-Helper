@@ -28,7 +28,7 @@ It doesn’t depend on any specific application. Anything that can send JSON can
 
 Refer to those files for installation, configuration, and usage details.
 
-## End POints
+## End Points
 Helper
 http://ip:port/helper
 
