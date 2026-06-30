@@ -37,13 +37,23 @@ http://ip:port/web
 
 ## Releases
 
+## [2026-06-30] V1.0.4
+### Added
+- 
+### Fixed
+- Web UI monaco validation changed to auto mode
+- Silence monaco traffic from console
+- WEBUI added payload schema
+- WEBUI added valid/invalid json/schema indicators
+- WEBUI bug fixes.
+
 Binary‑only releases are provided:
 
 Windows
-https://mega.nz/file/T3ZF0AhY#WYnWn_FXKQ4P5Ds8k_1Qnvi0-78NaldV0eBpO9WDBjg
+https://mega.nz/file/nyZHmZYK#LRjd8fkavuQMAuSx_abUWEuRsdiSANNbaUEbwHkz5Hg
 
 Linux
-https://mega.nz/file/yvQBRTCQ#cDynR6q-K0M74J4j9Urw-gWxNWpgggAs0gUawOpd_eI
+https://mega.nz/file/Pv4lnSrQ#w8-CCp0QYa2ATQ7pyyIktEsSUuEp2a-KGlwak4e9NgY
 
 Extract,Configure and run the executables for your platform.
 
